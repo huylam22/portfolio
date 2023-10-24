@@ -30,7 +30,10 @@ import {
   database,
   developer,
   ux,
+  facebook,
   growth,
+  linkedin,
+  github,
 } from "../assets";
 
 export const navLinks = [
@@ -232,9 +235,9 @@ const projects = [
 ];
 
 const contact = [
-  { logo: "", link: "https://www.facebook.com/" },
-  { logo: "", link: "https://www.linkedin.com/" },
-  { logo: "", link: "https://www.github.com/" },
+  { logo: facebook, link: "https://www.facebook.com/anhhuy.ljn/" },
+  { logo: linkedin, link: "https://www.linkedin.com/in/huy-lam-7323a9171/" },
+  { logo: github, link: "https://github.com/huylam22" },
 ];
 
 export { services, technologies, experiences, testimonials, projects, contact };

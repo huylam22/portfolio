@@ -48,16 +48,16 @@ const Navbar = () => {
             <span className="sm:block hidden"> | Analyst and Developer</span>
           </p>
         </Link>
-        <div className="sm:flex hidden gap-2">
+        <div className="sm:flex hidden gap-4 bg-slate-800 p-3 rounded-lg">
           {contact.map((item) => (
             <div
-              onClick={() => window.open("backend_source", "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              onClick={() => window.open(item.link, "_blank")}
+              className="w-10 h-10  rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
-                src={github}
+                src={item.logo}
                 alt="source code"
-                className="w-2/3 h-2/3 object-contain"
+                className="w-full h-full object-contain"
               />
             </div>
           ))}

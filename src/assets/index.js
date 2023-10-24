@@ -3,7 +3,9 @@ import realEstate from "./real-estate.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
+import linkedin from "./company/linkedin.png";
 import growth from "./growth.png";
+import facebook from "./company/facebook.png";
 import ux from "./ux.png";
 import developer from "./developer.png";
 import database from "./database-storage.png";
@@ -73,4 +75,6 @@ export {
   ux,
   growth,
   realEstate,
+  linkedin,
+  facebook,
 };
