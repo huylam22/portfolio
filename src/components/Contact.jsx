@@ -34,7 +34,7 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+        "service_tsadho4",
         "template_q4f00c1",
         {
           from_name: form.name,
@@ -43,7 +43,7 @@ const Contact = () => {
           to_email: "huy.lam0199@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        "dHjFkLnksov5rIgFH"
       )
       .then(
         () => {
