@@ -34,6 +34,9 @@ import {
   growth,
   linkedin,
   github,
+  portfolio,
+  qualistery,
+  RMIT,
 } from "../assets";
 
 export const navLinks = [
@@ -53,7 +56,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Business Developer/",
+    title: "Business Developer/Analyst",
     icon: growth,
   },
   {
@@ -130,29 +133,27 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Business Developer",
+    company_name: "Qualistery",
+    icon: qualistery,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "April 2022 - Sep 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Email Marketing: Design email templates in HTML and CSS with call-to-action contents to increase reply and open email rates by 15% which advanced the engagement and conversion rates of prospects",
+      "Strategically Identified High-Value Markets: Executed deep market research, pinpointing prime segments within the pharmaceuticals industry to elevate lead quality. Leveraged CRM insights to initiate cold calls, craft personalized emails, and establish LinkedIn connections and driving increased engagement.",
+      "Client Onboarding: Spearheaded negotiations, delivered presentations, and clinched pivotal contracts on GMP and GXP outsourcing services.",
     ],
   },
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "HR Associate",
+    company_name: "RMIT Finance Club",
+    icon: RMIT,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Jul 2019 - Oct 2019",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Interview, recruit new members to the club. Actively engage and communicate with new members.",
+      "Task allocation within HR department and collaboration with other departments to optimize club works.",
+      "Communicate & negotiate with potential sponsors - clients to fund for club operations, organize events.",
     ],
   },
 ];
@@ -195,6 +196,10 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
+        name: "redux",
+        color: "orange-text-gradient",
+      },
+      {
         name: "spring3.0",
         color: "green-text-gradient",
       },
@@ -212,25 +217,26 @@ const projects = [
   },
 
   {
-    name: "Trip Guide",
+    name: "Portfolio",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A comprehensive 3d interactive portfolio website with auto-email feature that showcases my skills, experiences, and projects .",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "threejs",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "webgl",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: portfolio,
+    source_code_link: "https://github.com/huylam22/portfolio",
+    url: "https://www.lamanhhuy.com",
   },
 ];
 

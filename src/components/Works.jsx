@@ -134,7 +134,7 @@ const Works = () => {
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
-
+      {/* 
       <motion.div variants={textVariant()}>
         <h2 className={`${styles.sectionHeadText}`}>Data Projects.</h2>
       </motion.div>
@@ -154,7 +154,7 @@ const Works = () => {
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
-      </div>
+      </div> */}
     </>
   );
 };

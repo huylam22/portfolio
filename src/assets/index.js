@@ -4,11 +4,14 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import linkedin from "./company/linkedin.png";
+import qualistery from "./company/qualistery.png";
+import portfolio from "./portfolio.png";
 import growth from "./growth.png";
 import facebook from "./company/facebook.png";
 import ux from "./ux.png";
 import developer from "./developer.png";
 import database from "./database-storage.png";
+import RMIT from "./company/RMIT.png";
 import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
@@ -77,4 +80,7 @@ export {
   realEstate,
   linkedin,
   facebook,
+  portfolio,
+  qualistery,
+  RMIT,
 };
