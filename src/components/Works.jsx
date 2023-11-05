@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { github, ux, database } from "../assets";
 import { SectionWrapper } from "../hoc";
-import { projects } from "../constants";
+import { dataProjects, projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ProjectCard = ({
@@ -134,7 +134,7 @@ const Works = () => {
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
-      {/* 
+
       <motion.div variants={textVariant()}>
         <h2 className={`${styles.sectionHeadText}`}>Data Projects.</h2>
       </motion.div>
@@ -151,10 +151,10 @@ const Works = () => {
         </motion.p>
       </div>
       <div className="mt-20 flex flex-wrap justify-center gap-7">
-        {projects.map((project, index) => (
+        {dataProjects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
-      </div> */}
+      </div>
     </>
   );
 };

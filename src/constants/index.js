@@ -37,6 +37,7 @@ import {
   portfolio,
   qualistery,
   RMIT,
+  scatterPlotTeen,
 } from "../assets";
 
 export const navLinks = [
@@ -88,29 +89,14 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "Python",
-    icon: python,
-  },
-  {
     name: "java",
     icon: java,
-  },
-  {
-    name: "SQL",
-    icon: sql,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -120,17 +106,26 @@ const technologies = [
     name: "Three JS",
     icon: threejs,
   },
-  {
-    name: "git",
-    icon: git,
-  },
-
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
+const data = [
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "SQL",
+    icon: sql,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+];
 const experiences = [
   {
     title: "Business Developer",
@@ -240,10 +235,48 @@ const projects = [
   },
 ];
 
+const dataProjects = [
+  {
+    name: "Teen Pregnancy Analysis",
+    description:
+      "This research project delves into the intricate dynamics of global adolescent fertility rates, employing a multifaceted approach that encompasses Descriptive Statistics, Hypothesis Testing, and Regression Analysis.",
+    tags: [
+      {
+        name: "excel",
+        color: "green-text-gradient",
+      },
+      {
+        name: "descriptive-statistics",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "hypothese-testing",
+        color: "orange-text-gradient",
+      },
+
+      {
+        name: "regression-analysis",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: scatterPlotTeen,
+    source_code_link: "https://github.com/huylam22/teen-pregnacy-analysis",
+  },
+];
+
 const contact = [
   { logo: facebook, link: "https://www.facebook.com/anhhuy.ljn/" },
   { logo: linkedin, link: "https://www.linkedin.com/in/huy-lam-7323a9171/" },
   { logo: github, link: "https://github.com/huylam22" },
 ];
 
-export { services, technologies, experiences, testimonials, projects, contact };
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  contact,
+  data,
+  dataProjects,
+};

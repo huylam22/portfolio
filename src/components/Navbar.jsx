@@ -49,8 +49,9 @@ const Navbar = () => {
           </p>
         </Link>
         <div className="sm:flex hidden gap-4 bg-slate-800 p-3 rounded-lg">
-          {contact.map((item) => (
+          {contact.map((item, idx) => (
             <div
+              key={idx}
               onClick={() => window.open(item.link, "_blank")}
               className="w-10 h-10  rounded-full flex justify-center items-center cursor-pointer"
             >

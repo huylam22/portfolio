@@ -1,4 +1,5 @@
 import logo from "./letter-h.png";
+import scatterPlotTeen from "./scatter-plot-teen.png";
 import realEstate from "./real-estate.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
@@ -83,4 +84,5 @@ export {
   portfolio,
   qualistery,
   RMIT,
+  scatterPlotTeen,
 };
